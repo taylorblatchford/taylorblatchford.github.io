@@ -3,6 +3,46 @@
 	margin: 0 auto; 
 }
 
+h1 {
+	color: #264d73;
+	font-family: Avenir, Arial, Helvetica, sans-serif;
+	font-size: 2em;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+#fixedheader {
+	color: #264d73;
+
+}
+
+#fixedheader ul{
+    font-family: Avenir, Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: #264d73;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid #ffffff;
+}
+
+#fixedheader a:link {
+	text-decoration: none;
+	color: #264d73;
+}
+
+li {
+    float: left;
+    display: block;
+	padding: 14px 16px;
+}
+
 #header {
 	color: #264d73;
 	font-family: Avenir, Arial, Helvetica, sans-serif;
@@ -13,7 +53,7 @@
 
 #intro {
 	text-align: center;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 	font-size: 1.3em;
 }
 
@@ -25,14 +65,14 @@ body {
 h2 {
 	color: #264d73;
 	font-family: Avenir, Arial, Helvetica, sans-serif;
-	font-size: 3em;
+	font-size: 2em;
 	text-align: center;
 	margin-bottom: 10px;
 }
 
 p {
 	font-family: Avenir, Arial, Helvetica, sans-serif;
-	font-size: 1.5em;
+	font-size: 1.25em;
 }
 
 * {
@@ -48,6 +88,24 @@ p {
 	margin-right: 10%;
 	margin-top: 77px;
 	font-size: 1.1em;
+}
+
+#fixedfooter ul{
+	color: #264d73;
+    font-family: Avenir, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    border-top: 1px solid #ffffff;
+	position: fixed;
+	right: 0;
+	left: 0;
+	bottom: 0;
+    ;
+
 }
 
 .outro {
