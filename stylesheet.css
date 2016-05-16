@@ -12,14 +12,14 @@ h1 {
 }
 
 #fixedheader {
-	color: #264d73;
+	background-color: #264d73;
 
 }
 
 #fixedheader ul{
     font-family: Avenir, Arial, Helvetica, sans-serif;
-    font-size: 2em;
-    color: #264d73;
+    font-size: 1.5em;
+    background-color: #264d73;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -29,26 +29,41 @@ h1 {
     position: fixed;
     width: 100%;
     overflow: hidden;
-    border-bottom: 1px solid #ffffff;
 }
 
 #fixedheader a:link {
 	text-decoration: none;
-	color: #264d73;
+	background-color: #264d73;
+	color: #F3F3F3;
+}
+
+#fixedheader a:visited {
+	text-decoration: none;
+	background-color: #264d73;
+	color: #F3F3F3;
+}
+
+#fixedheader a:hover {
+	text-decoration: none;
+	background-color: #264d73;
+	color: white;
+}
+
+#fixedheader a:active {
+	text-decoration: none;
+	background-color: #264d73;
+	color: #F3F3F3;
+}
+
+#fixedheader li {
+	background-color: #264d73;
+	color: white;
 }
 
 li {
     float: left;
     display: block;
-	padding: 14px 16px;
-}
-
-#header {
-	color: #264d73;
-	font-family: Avenir, Arial, Helvetica, sans-serif;
-	text-align: center;
-	font-size: 2.8em;
-	margin-top: 100px;
+	padding: 10px 14px;
 }
 
 #intro {
@@ -99,21 +114,28 @@ p {
     padding: 0;
     width: 100%;
     overflow: hidden;
-    border-top: 1px solid #ffffff;
+    border-top: 1px solid #264d73;
 	position: fixed;
 	right: 0;
 	left: 0;
 	bottom: 0;
-    ;
+}
+
+#fixedfooter a:link {
+	color: #264d73;
+}
+
+#fixedfooter a:visited {
+	color: #264d73;
+}
+
+#fixedfooter a:hover {
+	color: #264d73;
 
 }
 
-.outro {
-	font-size: 1em;
-	text-align: center;
-	font-style: italic;
-	clear: both;
-	padding-top: 25px;
+#fixedfooter a:active {
+	color: #264d73;
 }
 
 a:link {
