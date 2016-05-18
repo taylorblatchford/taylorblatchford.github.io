@@ -85,9 +85,29 @@ h2 {
 	margin-bottom: 10px;
 }
 
+h3 {
+	font-family: Avenir, Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+	text-align: left;
+}
+
+h4 {
+	font-family: Avenir, Arial, Helvetica, sans-serif;
+	font-size: 1.25em;
+	font-style: italic;
+	font-weight: bold;
+	text-align: left;
+	text-decoration: italic;
+
+}
+
 p {
 	font-family: Avenir, Arial, Helvetica, sans-serif;
 	font-size: 1.25em;
+}
+
+.description {
+	font-size: 1em;
 }
 
 * {
