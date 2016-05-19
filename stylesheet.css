@@ -78,6 +78,12 @@ body {
 	margin-right: 30px;
 }
 
+.anchor{
+	display: block;
+	height: 55px;
+	margin-top: -63px;
+	visibility: hidden;
+}
 
 h2 {
 	color: #264d73;
