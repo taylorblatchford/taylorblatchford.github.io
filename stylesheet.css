@@ -78,12 +78,14 @@ body {
 	margin-right: 30px;
 }
 
+
 h2 {
 	color: #264d73;
 	font-family: Avenir, Arial, Helvetica, sans-serif;
 	font-size: 2em;
 	text-align: center;
 	margin-bottom: 10px;
+	margin-top: 110px;
 }
 
 h3 {
@@ -99,7 +101,6 @@ h4 {
 	font-weight: bold;
 	text-align: left;
 	text-decoration: italic;
-
 }
 
 p {
