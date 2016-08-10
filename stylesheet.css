@@ -184,7 +184,7 @@ a:active {
 }
 
 @media screen and (max-width:599px) {
- #fixedheader li {
+ #fixedheader ul {
  	text-align: center;
     display: inline;
   }
