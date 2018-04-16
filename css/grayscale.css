@@ -8,8 +8,8 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-  color: white;
-  background-color: #262626; }
+  color: 0d0d0d;
+  background-color: #F4F4F4; }
 
 html {
   width: 100%;
@@ -41,10 +41,10 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: #c2dff0; }
+  color: #2877a4; }
   a:focus, a:hover {
     text-decoration: none;
-    color: #84bfe1; }
+    color: #5baad7; }
 
 #mainNav {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -174,14 +174,14 @@ a {
   border-radius: 0; }
 
 .btn-default {
-  color: #84bfe1;
-  border: 1px solid #84bfe1;
+  color: #2877a4;
+  border: 1px solid #2877a4;
   background-color: transparent; }
   .btn-default:focus, .btn-default:hover {
     color: black;
-    border: 1px solid #84bfe1;
+    border: 1px solid #2877a4;
     outline: none;
-    background-color: #84bfe1; }
+    background-color: #2877a4; }
 
 ul.banner-social-buttons {
   margin-top: 0; }
